@@ -80,13 +80,15 @@ The playbook implements the following tasks:
 - Download + Launch docker web container (w/ DVWA)
 ```
 #### playbook-elk.yml
-```- Install Docker
+```
+- Install Docker
 - Install Python3
 - Install Docker Python Module
 - Increases memory useage
 ```
 #### playbook-filebeat.yml
-```- Download filebeat .deb file
+```
+- Download filebeat .deb file
 - Install filebeat w/ .deb file
 - Drop in filebeat.yml
 - Enable + Config System Module
@@ -95,7 +97,8 @@ The playbook implements the following tasks:
 - Enable filebeat service on boot
 ```
 #### playbook-metricbeat.yml
-```- Download Metricbeat .deb file
+```
+- Download Metricbeat .deb file
 - Install Metricbeat w/ .deb file
 - Drop in Metricbeat.yml
 - Enable + Config System Module
@@ -104,7 +107,8 @@ The playbook implements the following tasks:
 - Enable Metricbeat service on boot
 ```
 #### playbook-elk.yml
-```- Install Docker
+```
+- Install Docker
 - Install Python(3)
 - Install Docker Python Module
 - Increase memory useage
@@ -138,13 +142,15 @@ SSH into the control node and follow the steps below:
 - Update the /etc/ansible/hosts file to include:
 
 [webservers]
+```
 - 10.0.0.5 ansible_python_interpreter=/usr/bin/python3
 - 10.0.0.6 ansible_python_interpreter=/usr/bin/python3
 - 10.0.0.7 ansible_python_interpreter=/usr/bin/python3
-
+```
 [elk]
+```
 10.1.0.4 ansible_python_interpreter=/usr/bin/python3
-
+```
 - Run the playbooks, and navigate to http://20.38.9.237:5601/app/kibana to check that the installation worked as expected.
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
