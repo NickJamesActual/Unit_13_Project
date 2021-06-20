@@ -73,30 +73,26 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 The playbook implements the following tasks:
 
 #### playbook-dvwa.yml
-'''
-- Installs Docker
+```- Installs Docker
 - Installs Python(3)
 - Install Python Docker Module
 - Download + Launch docker web container (w/ DVWA)
-'''
-
+```
 #### playbook-elk.yml
-'''
-- Install Docker
+```- Install Docker
 - Install Python3
 - Install Docker Python Module
 - Increases memory useage
-'''
-
+```
 #### playbook-filebeat.yml
-- Download filebeat .deb file
+```- Download filebeat .deb file
 - Install filebeat w/ .deb file
 - Drop in filebeat.yml
 - Enable + Config System Module
 - Setup Filebeat
 - Start Filebeat
 - Enable filebeat service on boot
-
+```
 #### playbook-metricbeat.yml
 - Download Metricbeat .deb file
 - Install Metricbeat w/ .deb file
