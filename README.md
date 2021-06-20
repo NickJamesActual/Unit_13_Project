@@ -94,22 +94,22 @@ The playbook implements the following tasks:
 - Enable filebeat service on boot
 ```
 #### playbook-metricbeat.yml
-- Download Metricbeat .deb file
+```- Download Metricbeat .deb file
 - Install Metricbeat w/ .deb file
 - Drop in Metricbeat.yml
 - Enable + Config System Module
 - Setup Metricbeat
 - Start Metricbeat
 - Enable Metricbeat service on boot
-
+```
 #### playbook-elk.yml
-- Install Docker
+```- Install Docker
 - Install Python(3)
 - Install Docker Python Module
 - Increase memory useage
 - Download + Launch Docker ELK Container
 - Enable Docker service on boot
-
+```
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
 ![docker_ps.png](Images/docker_ps.png)
