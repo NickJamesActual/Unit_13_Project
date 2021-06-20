@@ -60,9 +60,9 @@ A summary of the access policies in place can be found in the table below.
 |----------|---------------------|----------------------|
 | Jump Box | Yes - SSH             | 24.23.212.58    |
 | Web-1         | Yes - HTTP                    | 24.23.212.58                     |
-| Web-2         | Yes - HTTP                    | 24.23.212.58                     |
-| Web-3         | Yes - HTTP                    | 24.23.212.58                     |
-| ELK-VM         | Yes - HTTP                    | 24.23.212.58                     |
+| Web-2         | No                    | 24.23.212.58                     |
+| Web-3         | No                    | 24.23.212.58                     |
+| ELK-VM         | No                    | 24.23.212.58                     |
 
 ### Elk Configuration
 
