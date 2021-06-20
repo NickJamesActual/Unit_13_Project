@@ -140,15 +140,15 @@ SSH into the control node and follow the steps below:
 - Copy the playbook-*.yml files to Ansible Docker Container: /etc/ansible/playbooks
 - Update Ansible /etc/ansible/ansible.cfg - "remote_user" to "azadmin"
 - Update the /etc/ansible/hosts file to include:
-
-[webservers]
 ```
+[webservers]
+
 - 10.0.0.5 ansible_python_interpreter=/usr/bin/python3
 - 10.0.0.6 ansible_python_interpreter=/usr/bin/python3
 - 10.0.0.7 ansible_python_interpreter=/usr/bin/python3
-```
+
 [elk]
-```
+
 10.1.0.4 ansible_python_interpreter=/usr/bin/python3
 ```
 - Run the playbooks, and navigate to http://20.38.9.237:5601/app/kibana to check that the installation worked as expected.
