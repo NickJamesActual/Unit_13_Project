@@ -71,16 +71,19 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - Allows updates to be quickly deployed
 
 The playbook implements the following tasks:
+
 #playbook-dvwa.yml
 - Installs Docker
 - Installs Python(3)
 - Install Python Docker Module
 - Download + Launch docker web container (w/ DVWA)
+- 
 #playbook-elk.yml
 - Install Docker
 - Install Python3
 - Install Docker Python Module
 - Increases memory useage
+- 
 #playbook-filebeat.yml
 - Download filebeat .deb file
 - Install filebeat w/ .deb file
@@ -89,6 +92,7 @@ The playbook implements the following tasks:
 - Setup Filebeat
 - Start Filebeat
 - Enable filebeat service on boot
+- 
 #playbook-metricbeat.yml
 - Download Metricbeat .deb file
 - Install Metricbeat w/ .deb file
@@ -97,6 +101,7 @@ The playbook implements the following tasks:
 - Setup Metricbeat
 - Start Metricbeat
 - Enable Metricbeat service on boot
+- 
 #playbook-elk.yml
 - Install Docker
 - Install Python(3)
@@ -107,7 +112,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![docker_ps.png](Images/docker_ps_output.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
