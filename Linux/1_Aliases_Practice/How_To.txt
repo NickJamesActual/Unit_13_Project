@@ -1,0 +1,12 @@
+# Add commands to ~/.bashrc
+# (nano preferable for me; can also be output redirect.)
+
+# Ex: echo "alias lsa='ls -a'" >> ~/.bashrc
+# Result: cmd "lsa" = "ls -a"
+
+
+# Note: source ~/.bashrc
+# - to "reload" effectively and bypass immediate restart (best for testing)
+
+# "source" can be appended (see comment below)
+# echo ... >> ~/.bashrc && source ~/.bashrc

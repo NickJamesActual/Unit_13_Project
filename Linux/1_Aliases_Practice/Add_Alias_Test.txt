@@ -1,0 +1,20 @@
+# Created as echo with redirected to .bashrc file to demonstrate what could also be added using nano
+# See How_To.txt for notes and instructions
+
+
+echo "alias superm='sudo -l'" >> ~/.bashrc
+
+
+echo "alias lsa='ls -a'" >> ~/.bashrc
+
+
+echo "alias home='cd ~'" >> ~/.bashrc
+
+
+echo "alias down='cd ~/Downloads'" >> ~/.bashrc
+
+
+echo "alias docs='cd ~/Documents'" >> ~/.bashrc
+
+
+echo "alias brc='nano ~/.bashrc'" >> ~/.bashrc

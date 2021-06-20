@@ -1,0 +1,6 @@
+# Create .sh file
+
+# Change permissions: chmod +x script_name.sh
+# - makes executable
+
+# Edit file (I prefer nano)
