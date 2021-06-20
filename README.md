@@ -73,7 +73,8 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 The playbook implements the following tasks:
 
 #### playbook-dvwa.yml
-```- Installs Docker
+```
+- Installs Docker
 - Installs Python(3)
 - Install Python Docker Module
 - Download + Launch docker web container (w/ DVWA)
