@@ -59,10 +59,10 @@ A summary of the access policies in place can be found in the table below.
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
 | Jump Box | Yes - SSH             | 24.23.212.58    |
-| Web-1         | No                    | 24.23.212.58                     |
-| Web-2         | No                    | 24.23.212.58                     |
-| Web-3         | No                    | 24.23.212.58                     |
-| ELK-VM         | No                    | 24.23.212.58                     |
+| Web-1         | No - Internal Only                    | 10.0.0.4                     |
+| Web-2         | No - Internal Only                    | 10.0.0.4                     |
+| Web-3         | No - Internal Only                    | 10.0.0.4                     |
+| ELK-VM         | No - Internal Only                    | 10.0.0.4                     |
 
 ### Elk Configuration
 
