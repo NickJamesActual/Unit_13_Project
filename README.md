@@ -1,6 +1,8 @@
 # Unit_13_Project
 UCB Cybersecurity - Unit 13 Project
 
+### Included in the Linux directory are scripts and activities that demonstrate my path toward becoming proficient with Linux
+
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
